@@ -1,13 +1,13 @@
 require 'fizzbuzz'
 
-describe 'fozzbazz' do
-  it 'returns "fozz" when passed 3' do
-    expect(fozzbazz(3)).to eq 'fozz'
+describe 'fizzbuzz' do
+  it 'returns "fizz" when passed 3' do
+    expect(fizzbuzz(3)).to eq 'fizz'
   end
-  it 'returns "bazz" when passed 5' do
-    expect(fozzbazz(5)).to eq 'bazz'
+  it 'returns "buzz" when passed 5' do
+    expect(fizzbuzz(5)).to eq 'buzz'
   end
-  it 'returns "fozzbazz" when passed 15' do
-    expect(fozzbazz(15)).to eq 'fozzbazz'
+  it 'returns "fizzbuzz" when passed 15' do
+    expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
 end
