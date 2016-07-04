@@ -1,17 +1,17 @@
-def bythree(x)
+def three(x)
   true if x % 3 == 0
 end
 
-def byfive(x)
+def five(x)
   true if x % 5 == 0
 end
 
 def fizzbuzz(x)
-  if bythree(x) and byfive(x)
+  if three(x) and five(x)
     'fizzbuzz'
-  elsif bythree(x) and !byfive(x)
+  elsif three(x) and !five(x)
     'fizz'
-  elsif byfive(x) and !bythree(x)
+  elsif !three(x) and five(x)
     'buzz'
   end
 end
