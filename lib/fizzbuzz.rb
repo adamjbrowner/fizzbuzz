@@ -1,9 +1,9 @@
-def three(x)
-  true if x % 3 == 0
-end
-
 def five(x)
   true if x % 5 == 0
+end
+
+def three(x)
+  true if x % 3 == 0
 end
 
 def fizzbuzz(x)
